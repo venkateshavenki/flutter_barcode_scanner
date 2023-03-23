@@ -334,7 +334,7 @@ class BarcodeScannerViewController: UIViewController {
         // Initialize QR Code Frame to highlight the QR code
         qrCodeFrameView = UIView()
         
-        qrCodeFrameView!.frame = CGRect(x: 0, y: 0, width: self.isOrientationPortrait ? (screenSize.width * 0.8) : (screenSize.height * 1.0), height: screenHeight)
+        qrCodeFrameView!.frame = CGRect(x: 0, y: 0, width: self.isOrientationPortrait ? (screenSize.width * 0.8) : (screenSize.height * 1.5), height: screenHeight)
         
         
         if let qrCodeFrameView = qrCodeFrameView {
